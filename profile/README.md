@@ -1,10 +1,12 @@
 # ⚓ KeelStack – Ship SaaS Faster with AI‑Assisted Starter Kits
 
-Welcome to the official GitHub organization of **KeelStack**! We help indie hackers, founders, and freelancers launch production‑ready SaaS products in days, not months. Our modular, AI‑friendly templates handle the boring parts so you can focus on your unique idea.
+Welcome to the official GitHub organization of **KeelStack**! We're building modular, AI‑friendly starter kits to help indie hackers, founders, and freelancers launch production‑ready SaaS products in days, not months.
+
+We're launching soon – and we'd love for you to be part of the journey.
 
 ---
 
-## 🚀 What We Build
+## 🚀 What We're Building
 
 | Template | Stack | Description |
 |----------|-------|-------------|
@@ -21,13 +23,17 @@ All templates include:
 
 ---
 
-## 🌟 Why Developers Love KeelStack
+## 🗓️ We're Launching Soon
 
-> *"Saved me 40+ hours of Stripe/webhook hell. The AI context file alone is worth the price."*  
-> – Alex, indie hacker
+Be the first to know when our templates drop. Join the conversation, share your ideas, and help shape what we build next.
 
-> *"Clean code, great docs, and the community is super helpful."*  
-> – Maria, freelance developer
+👉 [**Visit keelstack.me**](https://keelstack.me) to get notified.
+
+---
+
+## 🌟 Future Testimonials
+
+*This space will soon be filled with stories from indie hackers who launched faster with KeelStack. Want to be one of them? Grab a template at launch and share your experience!*
 
 ---
 
@@ -38,16 +44,6 @@ We believe building in public is better together. Come chat with us!
 - **Discussions**: [github.com/keelstack-labs/community](https://github.com/keelstack-labs/community) – Q&A, show & tell, wall of love  
 - **Twitter/X**: [@KeelStack](https://twitter.com/keelstack)  
 - **Email**: [support@keelstack.me](mailto:support@keelstack.me)
-
----
-
-## 📦 Get Started
-
-Ready to launch your next SaaS?
-
-👉 [**Browse Templates on keelstack.me**](https://keelstack.me)
-
-All purchases include lifetime updates and access to our private GitHub repositories.
 
 ---
 

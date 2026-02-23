@@ -35,7 +35,7 @@ All templates include:
 
 We believe building in public is better together. Come chat with us!
 
-- **Discussions**: [github.com/keelstack/community](https://github.com/keelstack/community) – Q&A, show & tell, wall of love  
+- **Discussions**: [github.com/keelstack-labs/community](https://github.com/keelstack-labs/community) – Q&A, show & tell, wall of love  
 - **Twitter/X**: [@KeelStack](https://twitter.com/keelstack)  
 - **Email**: [support@keelstack.me](mailto:support@keelstack.me)
 

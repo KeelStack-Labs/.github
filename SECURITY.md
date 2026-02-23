@@ -48,6 +48,7 @@ We take security seriously:
 - Dependencies are regularly updated
 - We follow security best practices for authentication, payments, and data handling
 - We use 3D Secure for payment processing via Gumroad
+- If you discover a security vulnerability (e.g., a bypass in the Stripe webhook logic), please do not open a public issue. Email us at [support@keelstack.me](mailto:support@keelstack.me). We aim to respond to all security reports within 12 hours.
 
 ## ⚖️ Responsible Disclosure
 
@@ -61,7 +62,6 @@ We follow responsible disclosure principles:
 
 ## 📧 Contact
 
-- Security reports: [security@keelstack.me](mailto:security@keelstack.me)
-- General support: [support@keelstack.me](mailto:support@keelstack.me)
+- support: [support@keelstack.me](mailto:support@keelstack.me)
 
 Thank you for helping keep KeelStack and our community secure!

@@ -18,8 +18,8 @@ Additional files may be added over time (e.g., issue templates, pull request tem
 
 ## 🧑‍💻 How to Use
 
-- **Contributors**: Please follow the guidelines in [`CONTRIBUTING.md`](profile/CONTRIBUTING.md) when participating in any KeelStack repository.
-- **Community members**: Read our [Code of Conduct](profile/CODE_OF_CONDUCT.md) and report security issues via the process described in [`SECURITY.md`](profile/SECURITY.md).
+- **Contributors**: Please follow the guidelines in [`CONTRIBUTING.md`](..CONTRIBUTING.md) when participating in any KeelStack repository.
+- **Community members**: Read our [Code of Conduct](..CODE_OF_CONDUCT.md) and report security issues via the process described in [`SECURITY.md`](..SECURITY.md).
 - **Maintainers**: If you need to update any of these files, submit a pull request to this repository. Changes will apply organization‑wide once merged.
 
 ## 🤝 Contributing to These Files

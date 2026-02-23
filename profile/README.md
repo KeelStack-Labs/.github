@@ -53,7 +53,7 @@ All purchases include lifetime updates and access to our private GitHub reposito
 
 ## 🤝 Contribute
 
-We welcome contributions to our public community resources! Check out our [contributing guidelines](https://github.com/keelstack/.github/blob/main/CONTRIBUTING.md) and [code of conduct](https://github.com/keelstack/.github/blob/main/CODE_OF_CONDUCT.md).
+We welcome contributions to our public community resources! Check out our [contributing guidelines](https://github.com/keelstack-labs/.github/blob/main/CONTRIBUTING.md) and [code of conduct](https://github.com/keelstack-labs/.github/blob/main/CODE_OF_CONDUCT.md).
 
 ---
 

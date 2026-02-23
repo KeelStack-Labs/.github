@@ -1,42 +1,61 @@
-# .github – KeelStack Organization Health Files
+# ⚓ KeelStack – Ship SaaS Faster with AI‑Assisted Starter Kits
 
-Welcome to the `.github` repository of **KeelStack**! This is a special repository that holds default community health files for all public repositories under the KeelStack organization on GitHub.
-
-## 📌 Purpose
-
-Files stored here are automatically used by GitHub as the default community standards across every repository in our organization – unless a repository overrides them with its own version. This ensures a consistent and welcoming experience for contributors, users, and community members.
-
-## 📂 What’s Inside
-
-| File | Description |
-|------|-------------|
-| [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) | Our Code of Conduct, based on the Contributor Covenant, sets expectations for respectful and inclusive participation. |
-| [`CONTRIBUTING.md`](CONTRIBUTING.md) | Guidelines for contributing to KeelStack projects – includes how to report bugs, suggest features, and submit pull requests. |
-| [`SECURITY.md`](SECURITY.md) | Security policy and instructions for reporting vulnerabilities privately. |
-
-Additional files may be added over time (e.g., issue templates, pull request templates, funding information).
-
-## 🧑‍💻 How to Use
-
-- **Contributors**: Please follow the guidelines in [`CONTRIBUTING.md`](CONTRIBUTING.md) when participating in any KeelStack repository.
-- **Community members**: Read our [Code of Conduct](CODE_OF_CONDUCT.md) and report security issues via the process described in [`SECURITY.md`](SECURITY.md).
-- **Maintainers**: If you need to update any of these files, submit a pull request to this repository. Changes will apply organization‑wide once merged.
-
-## 🤝 Contributing to These Files
-
-We welcome improvements to our community standards! If you have a suggestion for making these documents clearer, more inclusive, or more helpful:
-
-1. Open an issue to discuss the change.
-2. Submit a pull request with your proposed updates.
-3. Wait for review from organization maintainers.
-
-Please ensure your contributions align with our [Code of Conduct](CODE_OF_CONDUCT.md).
-
-## 📜 License
-
-The content of this repository is licensed under the [MIT License](LICENSE) unless otherwise noted.
+Welcome to the official GitHub organization of **KeelStack**! We help indie hackers, founders, and freelancers launch production‑ready SaaS products in days, not months. Our modular, AI‑friendly templates handle the boring parts so you can focus on your unique idea.
 
 ---
 
-Thank you for being part of the KeelStack community!  
-– The KeelStack Team ⚓
+## 🚀 What We Build
+
+| Template | Stack | Description |
+|----------|-------|-------------|
+| **Next.js SaaS Starter** | Next.js 15, Prisma, Stripe, Auth.js | Full‑featured starter with subscriptions, RBAC, and webhooks |
+| *(more coming soon)* | | |
+
+All templates include:
+- ✅ Authentication & user management
+- ✅ Payment processing (Stripe / Lemon Squeezy)
+- ✅ Database schema & migrations
+- ✅ API routes & webhook handlers
+- ✅ AI context file for Cursor/GPT
+- ✅ Modular architecture – swap out what you need
+
+---
+
+## 🌟 Why Developers Love KeelStack
+
+> *"Saved me 40+ hours of Stripe/webhook hell. The AI context file alone is worth the price."*  
+> – Alex, indie hacker
+
+> *"Clean code, great docs, and the community is super helpful."*  
+> – Maria, freelance developer
+
+---
+
+## 💬 Join the Community
+
+We believe building in public is better together. Come chat with us!
+
+- **Discussions**: [github.com/keelstack/community](https://github.com/keelstack/community) – Q&A, show & tell, wall of love  
+- **Twitter/X**: [@KeelStack](https://twitter.com/keelstack)  
+- **Email**: [support@keelstack.me](mailto:support@keelstack.me)
+
+---
+
+## 📦 Get Started
+
+Ready to launch your next SaaS?
+
+👉 [**Browse Templates on keelstack.me**](https://keelstack.me)
+
+All purchases include lifetime updates and access to our private GitHub repositories.
+
+---
+
+## 🤝 Contribute
+
+We welcome contributions to our public community resources! Check out our [contributing guidelines](https://github.com/keelstack/.github/blob/main/CONTRIBUTING.md) and [code of conduct](https://github.com/keelstack/.github/blob/main/CODE_OF_CONDUCT.md).
+
+---
+
+**KeelStack – The Foundation Your Next SaaS Deserves.**  
+– The Team ⚓

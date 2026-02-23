@@ -41,7 +41,7 @@ Be the first to know when our templates drop. Join the conversation, share your 
 
 We believe building in public is better together. Come chat with us!
 
-- **Discussions**: [github.com/keelstack-labs/community](https://github.com/keelstack-labs/community) – Q&A, show & tell, wall of love  
+- **Discussions**: [github.com/keelstack-me/community](https://github.com/keelstack-me/community) – Q&A, show & tell, wall of love  
 - **Twitter/X**: [@KeelStack](https://twitter.com/keelstack)  
 - **Email**: [support@keelstack.me](mailto:support@keelstack.me)
 
@@ -49,7 +49,7 @@ We believe building in public is better together. Come chat with us!
 
 ## 🤝 Contribute
 
-We welcome contributions to our public community resources! Check out our [contributing guidelines](https://github.com/keelstack-labs/.github/blob/main/CONTRIBUTING.md) and [code of conduct](https://github.com/keelstack-labs/.github/blob/main/CODE_OF_CONDUCT.md).
+We welcome contributions to our public community resources! Check out our [contributing guidelines](https://github.com/keelstack-me/.github/blob/main/CONTRIBUTING.md) and [code of conduct](https://github.com/keelstack-me/.github/blob/main/CODE_OF_CONDUCT.md).
 
 ---
 

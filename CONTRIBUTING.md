@@ -1,17 +1,17 @@
 # 🛠️ Contributing to KeelStack
 
-First off, thank you for considering contributing to **KeelStack**! We're building a community of indie hackers and founders, and your input helps us create the most reliable **AI-Native** kits on the market. Whether you're fixing a bug, suggesting a feature, or improving docs, you're helping everyone build faster.
+First off, thank you for considering contributing to **KeelStack**! We're building a community of indie hackers, solo developers and founders, and your input helps us create the most reliable **AI-Native** kits on the market. Whether you're fixing a bug, suggesting a feature, or improving docs, you're helping everyone build faster.
 
 ---
 
 ## 📋 Table of Contents
-- [Code of Conduct](#-code-of-conduct)
-- [First Time? Start Here](#-first-time-start-here)
-- [How Can I Contribute?](#-how-can-i-contribute)
-- [Development Guidelines](#-development-guidelines)
-- [Pull Request (PR) Process](#-pull-request-(pr)-process)
-- [For Pro Template Contributors](#-for-pro-template-contributors)
-- [Questions?](#-questions)
+- [Code of Conduct](#code-of-conduct)
+- [First Time? Start Here](#first-time-start-here)
+- [How Can I Contribute?](#how-can-i-contribute)
+- [Development Guidelines](#development-guidelines)
+- [Pull Request (PR) Process](#pull-request-pr-process)
+- [For Pro Template Contributors](#for-pro-template-contributors)
+- [Questions?](#questions)
 
 ---
 

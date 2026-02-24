@@ -56,7 +56,7 @@ We don't just give you a zip file. You get a **system built for production**, in
 We believe in building in public and learning together. Whether you're a developer, a potential partner, or just curious, our channels are open:
 
 - **Discussions**: Share your ideas, vote on features, and follow our progress in [GitHub Discussions](https://github.com/orgs/KeelStack-me/discussions).
-- **General Inquiries:** `hello@keelstack.me` – for feedback, ideas, or just to say hi.
+- **General Inquiries: (`hello@keelstack.me`)** – for feedback, ideas, or just to say hi.
 - **Founder (`founder@keelstack.me`)** – for partnerships, strategy, or a direct chat.
 - **Support (`support@keelstack.me`)** – technical assistance with your kit (once launched).
 - **Security (`security@keelstack.me`)** – responsible disclosure of vulnerabilities.

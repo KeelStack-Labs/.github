@@ -6,14 +6,25 @@ KeelStack delivers production‑ready, modular starter kits architected for the 
 
 ---
 
-## 🚀 The KeelStack Ecosystem
+## 🚀 What We're Building
+We're crafting a suite of **AI‑Native starter kits** designed to help indie hackers launch faster. Here's what's in the pipeline:
 
 
 | Kit | Tech Stack | Status |
 | :--- | :--- | :--- |
-| **Next.js Pro SaaS** | Next.js 15, Prisma/Drizzle, Tailwind, Stripe | **Live (v1.0)** |
-| **AI Agent Kit** | Python/Node, LangChain, OpenAI | *Beta (Q2 2026)* |
-| **Mobile SaaS Starter** | React Native, Expo, NativeWind | *Coming Soon* |
+| **Next.js Pro SaaS** | Next.js 15, Prisma/Drizzle, Tailwind, Stripe | **Coming soon – be the first to know!** |
+| **AI Agent Kit** | Python/Node, LangChain, OpenAI | *In research* |
+| **Mobile SaaS Starter** | React Native, Expo, NativeWind | *On the roadmap* |
+
+We're building in public and would love your input. **Join our community** to help shape the features and priorities.
+
+## 💬 Get Involved
+
+- Discussions: Share your ideas, vote on features, and follow our progress in [GitHub Discussions](https://github.com/orgs/KeelStack-me/discussions).
+- Updates: Subscribe at [keelstack.me](keelstack.me) to be notified when we launch.
+- Contact: founder@keelstack.me – I read every message.
+
+
 
 ---
 

@@ -2,29 +2,23 @@
 
 ### **Build Your Next Startup, Not Just Boilerplate.**
 
-KeelStack delivers production‑ready, modular starter kits architected for the **AI‑assisted development era**. We provide the essential, professional‑grade plumbing—Auth, Payments, Security, Database—so you can focus 100% on your unique idea and ship faster while owning all your equity.
+KeelStack is a company on a mission to deliver production‑ready, modular starter kits architected for the **AI‑assisted development era**. We provide the essential, professional‑grade plumbing—Auth, Payments, Security, Database—so you can focus 100% on your unique idea and ship faster while owning all your equity.
+
+We're launching soon and building in public. **Join us.**
 
 ---
 
 ## 🚀 What We're Building
+
 We're crafting a suite of **AI‑Native starter kits** designed to help indie hackers launch faster. Here's what's in the pipeline:
 
-
-| Kit | Tech Stack | Status |
+| Kit | Stack | Status |
 | :--- | :--- | :--- |
 | **Next.js Pro SaaS** | Next.js 15, Prisma/Drizzle, Tailwind, Stripe | **Coming soon – be the first to know!** |
 | **AI Agent Kit** | Python/Node, LangChain, OpenAI | *In research* |
 | **Mobile SaaS Starter** | React Native, Expo, NativeWind | *On the roadmap* |
 
 We're building in public and would love your input. **Join our community** to help shape the features and priorities.
-
-## 💬 Get Involved
-
-- Discussions: Share your ideas, vote on features, and follow our progress in [GitHub Discussions](https://github.com/orgs/KeelStack-me/discussions).
-- Updates: Subscribe at [keelstack.me](keelstack.me) to be notified when we launch.
-- Contact: founder@keelstack.me – I read every message.
-
-
 
 ---
 
@@ -57,18 +51,20 @@ We don't just give you a zip file. You get a **system built for production**, in
 
 ---
 
-## 💬 Connect & Collaborate
+## 💬 Connect with Us
 
 We believe in building in public and learning together. Whether you're a developer, a potential partner, or just curious, our channels are open:
 
-- **Founder (`founder@keelstack.me`)** – For partnerships, strategy, or a direct chat.
-- **Support (`support@keelstack.me`)** – Technical assistance with your kit.
-- **Security (`security@keelstack.me`)** – Responsible disclosure of vulnerabilities.
-- **Website:** [keelstack.me](https://keelstack.me) – For product details and purchasing.
+- **Discussions**: Share your ideas, vote on features, and follow our progress in [GitHub Discussions](https://github.com/orgs/KeelStack-me/discussions).
+- **General Inquiries:** `hello@keelstack.me` – for feedback, ideas, or just to say hi.
+- **Founder (`founder@keelstack.me`)** – for partnerships, strategy, or a direct chat.
+- **Support (`support@keelstack.me`)** – technical assistance with your kit (once launched).
+- **Security (`security@keelstack.me`)** – responsible disclosure of vulnerabilities.
+- **Website:** [keelstack.me](https://keelstack.me) – for product details and to get notified when we launch.
 
 ---
 
-## 🤝 Community Standards
+## 🤝 Community & Governance
 
 KeelStack is built on a foundation of professional conduct, collaboration, and mutual respect.
 

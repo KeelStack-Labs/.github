@@ -1,57 +1,70 @@
-# ⚓ KeelStack – Ship SaaS Faster with AI‑Assisted Starter Kits
+# ⚓ KeelStack
 
-Welcome to the official GitHub organization of **KeelStack**! We're building modular, AI‑friendly starter kits to help indie hackers, founders, and freelancers launch production‑ready SaaS products in days, not months.
+### **Build Your Next Startup, Not Just Boilerplate.**
 
-We're launching soon – and we'd love for you to be part of the journey.
-
----
-
-## 🚀 What We're Building
-
-| Template | Stack | Description |
-|----------|-------|-------------|
-| **Next.js SaaS Starter** | Next.js 15, Prisma, Stripe, Auth.js | Full‑featured starter with subscriptions, RBAC, and webhooks |
-| *(more coming soon)* | | |
-
-All templates include:
-- ✅ Authentication & user management
-- ✅ Payment processing (Stripe / Lemon Squeezy)
-- ✅ Database schema & migrations
-- ✅ API routes & webhook handlers
-- ✅ AI context file for Cursor/GPT
-- ✅ Modular architecture – swap out what you need
+KeelStack delivers production‑ready, modular starter kits architected for the **AI‑assisted development era**. We provide the essential, professional‑grade plumbing—Auth, Payments, Security, Database—so you can focus 100% on your unique idea and ship faster while owning all your equity.
 
 ---
 
-## 🗓️ We're Launching Soon
+## 🚀 The KeelStack Ecosystem
 
-Be the first to know when our templates drop. Join the conversation, share your ideas, and help shape what we build next.
 
-👉 [**Visit keelstack.me**](https://keelstack.me) to get notified.
-
----
-
-## 🌟 Future Testimonials
-
-*This space will soon be filled with stories from indie hackers who launched faster with KeelStack. Want to be one of them? Grab a template at launch and share your experience!*
+| Kit | Tech Stack | Status |
+| :--- | :--- | :--- |
+| **Next.js Pro SaaS** | Next.js 15, Prisma/Drizzle, Tailwind, Stripe | **Live (v1.0)** |
+| **AI Agent Kit** | Python/Node, LangChain, OpenAI | *Beta (Q2 2026)* |
+| **Mobile SaaS Starter** | React Native, Expo, NativeWind | *Coming Soon* |
 
 ---
 
-## 💬 Join the Community
+## ✨ Built for the AI‑Native Workflow
 
-We believe building in public is better together. Come chat with us!
+Every kit is designed from the ground up to be your perfect partner for tools like **Cursor** and **Claude 3.7**.
 
-- **Discussions**: [github.com/keelstack-me/community](https://github.com/keelstack-me/community) – Q&A, show & tell, wall of love  
-- **Twitter/X**: [@KeelStack](https://twitter.com/keelstack)  
-- **Email**: [support@keelstack.me](mailto:support@keelstack.me)
-
----
-
-## 🤝 Contribute
-
-We welcome contributions to our public community resources! Check out our [contributing guidelines](https://github.com/keelstack-me/.github/blob/main/CONTRIBUTING.md) and [code of conduct](https://github.com/keelstack-me/.github/blob/main/CODE_OF_CONDUCT.md).
+- **`.cursorrules` Included:** Pre‑configured context files that guide the AI, dramatically reducing hallucinations and keeping your codebase consistent.
+- **Modular & Predictable:** Our architecture is structured so AI can confidently refactor or add features without breaking your core business logic.
+- **Prompt‑Ready Code:** Clear, well‑commented patterns make it easy to generate new, on‑brand components with simple prompts.
 
 ---
 
-**KeelStack – The Foundation Your Next SaaS Deserves.**  
-– The Team ⚓
+## 🛡️ Built on a Foundation of Security & Trust
+
+We don't just give you a zip file. You get a **system built for production**, incorporating modern security and compliance standards from day one.
+
+- **Security Shield:** Includes guidance for setting up a Cloudflare Worker to create a private channel for vulnerability disclosure.
+- **Production-Ready Stack:** Leveraging best‑in‑class tools verified by thousands of developers.
+
+### Core Technology Choices
+
+
+| Layer | Our Recommendation | Why |
+| :--- | :--- | :--- |
+| **Payments & Tax** | **Paddle** or **Stripe** | Global tax compliance (Merchant of Record), fraud protection, and robust APIs. |
+| **Authentication** | **Auth.js (v5)** or **Clerk** | Edge‑compatible, secure by default, and framework agnostic. |
+| **Database** | **PostgreSQL** / **Supabase** | Rock‑solid relational integrity with powerful tooling that scales from MVP to millions of users. |
+| **Email** | **Resend** or **Postmark** | Highest deliverability so your critical transactional emails always land in the inbox. |
+
+---
+
+## 💬 Connect & Collaborate
+
+We believe in building in public and learning together. Whether you're a developer, a potential partner, or just curious, our channels are open:
+
+- **Founder (`founder@keelstack.me`)** – For partnerships, strategy, or a direct chat.
+- **Support (`support@keelstack.me`)** – Technical assistance with your kit.
+- **Security (`security@keelstack.me`)** – Responsible disclosure of vulnerabilities.
+- **Website:** [keelstack.me](https://keelstack.me) – For product details and purchasing.
+
+---
+
+## 🤝 Community Standards
+
+KeelStack is built on a foundation of professional conduct, collaboration, and mutual respect.
+
+- [**Contributing Guidelines**](https://github.com/KeelStack-me/.github/blob/main/CONTRIBUTING.md)
+- [**Security Policy**](https://github.com/KeelStack-me/.github/blob/main/SECURITY.md)
+- [**Code of Conduct**](https://github.com/KeelStack-me/.github/blob/main/CODE_OF_CONDUCT.md)
+
+---
+
+**Build Fast. Build Secure. Own 100% of Your Earnings.** ⚓

@@ -8,9 +8,9 @@ First off, thank you for considering contributing to **KeelStack**! We're buildi
 - [Code of Conduct](https://github.com/KeelStack-me/.github/blob/main/CONTRIBUTING.md#-code-of-conduct)
 - [First Time? Start Here](https://github.com/KeelStack-me/.github/blob/main/CONTRIBUTING.md#-first-time-start-here)
 - [How Can I Contribute?](https://github.com/KeelStack-me/.github/blob/main/CONTRIBUTING.md#-how-can-i-contribute)
-- [Development Guidelines](https://github.com/KeelStack-me/.github/blob/main/CONTRIBUTING.md#-development-guidelines)
+- [Development Guidelines](https://github.com/KeelStack-me/community?tab=contributing-ov-file#%EF%B8%8F-development-guidelines)
 - [Pull Request (PR) Process](https://github.com/KeelStack-me/.github/blob/main/CONTRIBUTING.md#-pull-request-pr-process)
-- [For Pro Template Contributors](https://github.com/KeelStack-me/.github/blob/main/CONTRIBUTING.md#-for-pro-template-contributors)
+- [For Pro Template Contributors](https://github.com/KeelStack-me/.github/blob/main/CONTRIBUTING.md#%EF%B8%8F-for-pro-template-contributors)
 - [Questions?](https://github.com/KeelStack-me/.github/blob/main/CONTRIBUTING.md#-questions)
 
 ---

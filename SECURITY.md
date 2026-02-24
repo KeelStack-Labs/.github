@@ -1,67 +1,65 @@
-# Security Policy for KeelStack
+# 🛡️ KeelStack Security Policy
 
-## 📌 Scope
+At **KeelStack**, we are committed to building secure **AI‑Native SaaS Starter Kits** for solo founders and indie hackers. We welcome the efforts of security researchers to help us maintain the highest level of integrity for our customers and our code.
 
-This security policy applies to all KeelStack templates, repositories, and associated code. Our community discussion repo is public, but template code repositories remain private.
+---
 
-## 🐛 Reporting a Vulnerability
+## 🚀 Reporting a Vulnerability
 
-If you discover a security vulnerability in any KeelStack product:
+If you discover a security vulnerability in any KeelStack repository (including our public community repo or private template repos), **please do not open a public issue**. Public disclosure before a fix is available puts our users at risk.
 
-**DO NOT** create a public GitHub issue or discuss it in public discussions.
+Instead, report all security concerns directly to:
 
-Instead, email us directly at: **[security@keelstack.me](mailto:security@keelstack.me)**
+- **Email:** [security@keelstack.me](mailto:security@keelstack.me)
+- **Encryption:** All reports are routed through a Cloudflare‑protected channel for secure, private delivery.
 
-We take all security reports seriously and will respond within 48 hours.
+### ⏱️ What to Expect
 
-### What to include:
+- **Acknowledgement:** You will receive an acknowledgement of your report within **24 hours** (often sooner).  
+- **Investigation:** Our team will investigate and validate the issue.  
+- **Updates:** We will keep you informed as we work toward a resolution.  
+- **Resolution:** Once a fix is ready, we will notify affected users (if any) and release an update.
 
-- Description of the vulnerability
-- Steps to reproduce
-- Potential impact
-- Any suggested fixes (if you have them)
+---
 
-## 🔐 Security Expectations for Customers
+## 🛠️ Disclosure Policy
 
-### Private Repositories
+We follow **Coordinated Vulnerability Disclosure**. We ask that you allow us a reasonable amount of time to resolve the issue before making any public disclosure. We will work with you to agree on a disclosure timeline.
 
-Our template repositories are private and granted only to verified customers. To maintain security:
+### ✅ In Scope
 
-- **Do not** share repository access with unauthorized users
-- **Do not** post any code from private repositories in public discussions
-- **Do not** create public forks of private repositories
-- Report any unauthorized access immediately to [support@keelstack.me](mailto:support@keelstack.me)
+Vulnerabilities in the following areas are considered in scope:
 
-### Public Community Repo
+- Authentication bypass (e.g., Auth.js, JWT logic)  
+- Data leakage (API endpoints, middleware, environment variables)  
+- Injection flaws (Prisma, SQL, NoSQL)  
+- Insecure configuration (deployment scripts, Cloudflare settings)  
+- Broken access control (RBAC, user permissions)  
+- Code execution vulnerabilities
 
-The `keelstack/community` repository is public. When participating:
+Note: Security reports for **custom implementations** built using KeelStack are out of scope; we only cover the **Core Template ** logic.
 
-- **Never post API keys, secrets, or credentials**
-- **Never post private code** from your projects or our templates
-- Use code snippets sparingly and ensure they contain no sensitive information
+### ❌ Out of Scope
 
-## 🛡️ Our Security Practices
+- Issues in third‑party dependencies (please report to the respective maintainers)  
+- Theoretical attacks without proof of concept  
+- Social engineering, phishing, or physical attacks  
+- Denial‑of‑service attacks  
+- Automated tooling reports without manual verification  
 
-We take security seriously:
+---
 
-- All template code is reviewed before release
-- Dependencies are regularly updated
-- We follow security best practices for authentication, payments, and data handling
-- We use 3D Secure for payment processing via Gumroad
-- If you discover a security vulnerability (e.g., a bypass in the Stripe webhook logic), please do not open a public issue. Email us at [support@keelstack.me](mailto:support@keelstack.me). We aim to respond to all security reports within 12 hours.
+## 🤝 Acknowledgments
 
-## ⚖️ Responsible Disclosure
+We believe in giving credit where it’s due. If you are the **first** to report a unique, valid security issue, we will:
 
-We follow responsible disclosure principles:
+- Give you **public credit** in our release notes (unless you prefer to remain anonymous).  
+- Grant you a **Free Premium License** to our latest SaaS Starter Kits.  
 
-1. Reporter submits vulnerability details privately
-2. We confirm receipt within 48 hours
-3. We investigate and develop a fix
-4. We notify affected customers (if any)
-5. We publish fix and credit reporter (with permission)
+We may also include your name in our Release Notes (with your permission).
 
-## 📧 Contact
+---
 
-- support: [support@keelstack.me](mailto:support@keelstack.me)
+Thank you for helping us keep KeelStack and the indie hacking community safe. Together, we build better.
 
-Thank you for helping keep KeelStack and our community secure!
+**– The KeelStack Team** ⚓

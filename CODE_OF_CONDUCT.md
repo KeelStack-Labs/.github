@@ -1,4 +1,7 @@
 # 📜 KeelStack Community Code of Conduct
+This Code of Conduct exists to protect the community, not to police good-faith participation.
+
+---
 
 ## Our Pledge
 
@@ -25,7 +28,7 @@ We are committed to building a community where indie hackers, founders, and deve
 - **Trolling, insulting or derogatory comments**, and personal or political attacks.
 - **Public or private harassment** of any kind.
 - **Publishing others' private information** (e.g., email, address) without explicit permission – also known as *doxxing*.
-- **Sharing access to paid KeelStack templates** with non‑customers (violates our terms and harms the community).
+- **Encouraging or facilitating violations** of KeelStack’s licensing or terms.(violates our terms and harms the community).
 - Any other conduct that could reasonably be considered **inappropriate in a professional setting**.
 
 ---
@@ -35,6 +38,8 @@ We are committed to building a community where indie hackers, founders, and deve
 **Community leaders** (including the KeelStack founder and any future maintainers) are responsible for clarifying and enforcing our standards. They will take **appropriate and fair corrective action** in response to any behavior they deem inappropriate, threatening, offensive, or harmful.
 
 We have the right and responsibility to **remove, edit, or reject** comments, commits, code, issues, and other contributions that do not align with this Code of Conduct, and to **ban temporarily or permanently** any contributor for other behaviors we deem inappropriate.
+
+**Enforcement decisions are made by KeelStack community leadership in good faith and are final.**
 
 ---
 
@@ -48,6 +53,7 @@ This Code of Conduct applies **within all KeelStack community spaces**, includin
 - Any **official KeelStack events** (virtual or in‑person)
 
 It also applies when an individual is **officially representing the community** in public spaces (e.g., using an official email address, posting as a representative on social media, or speaking at an event).
+All interactions must remain professional and appropriate for a mixed-age public community.
 
 ---
 
@@ -71,6 +77,8 @@ We are committed to:
 
 ## ⚖️ Enforcement Guidelines
 
+Not all violations will follow this progression. Severe or malicious behavior may result in immediate temporary or permanent bans at our discretion.
+
 Community leaders will follow these guidelines when determining consequences for actions violating this Code of Conduct:
 
 ### 1. Correction
@@ -88,6 +96,8 @@ Community leaders will follow these guidelines when determining consequences for
 ### 4. Permanent Ban
 **Community Impact:** Demonstrating a pattern of violating community standards, including sustained inappropriate behavior, harassment of an individual, or aggression toward or disparagement of classes of individuals.  
 **Consequence:** A permanent ban from any kind of public interaction within the community.
+
+This Code of Conduct is governed and interpreted in accordance with applicable laws in the operator’s jurisdiction.
 
 ---
 

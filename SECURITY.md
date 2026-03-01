@@ -11,7 +11,7 @@ If you discover a security vulnerability in any KeelStack repository (including 
 Instead, report all security concerns directly to:
 
 - **Email:** [security@keelstack.me](mailto:security@keelstack.me)
-- **Encryption:** All reports are routed through a Cloudflare‑protected channel for secure, private delivery.
+- **Encryption:** Reports are handled privately and access is restricted to core maintainers.
 
 ### ⏱️ What to Expect
 
@@ -37,7 +37,7 @@ Vulnerabilities in the following areas are considered in scope:
 - Broken access control (RBAC, user permissions)  
 - Code execution vulnerabilities
 
-Note: Security reports for **custom implementations** built using KeelStack are out of scope; we only cover the **Core Template ** logic.
+Note: Security reports for **custom implementations** built using KeelStack are out of scope; we only cover the **Core Template logic (authentication, authorization, billing, and infrastructure scaffolding)**
 
 ### ❌ Out of Scope
 
@@ -49,12 +49,18 @@ Note: Security reports for **custom implementations** built using KeelStack are 
 
 ---
 
+## 🛡️ Safe Harbor
+
+We will not pursue legal action against security researchers who discover and report vulnerabilities responsibly and in good faith, in accordance with this policy.
+
+---
+
 ## 🤝 Acknowledgments
 
 We believe in giving credit where it’s due. If you are the **first** to report a unique, valid security issue, we will:
 
 - Give you **public credit** in our release notes (unless you prefer to remain anonymous).  
-- Grant you a **Free Premium License** to our latest SaaS Starter Kits.  
+- Grant you a **complimentary Premium License** (scope and duration determined at our discretion) to our latest SaaS Starter Kits.
 
 We may also include your name in our Release Notes (with your permission).
 

@@ -26,6 +26,8 @@ New to open source or contributing on GitHub? We're glad you're here!
 2.  **Ask**: Feel free to ask questions in the relevant issue or discussion thread—no question is too small.
 3.  **Use AI Tools**: Feel free to use AI assistants like GitHub Copilot or Cursor to help you draft code or documentation. We're an AI-native community!
 
+Contributors are responsible for reviewing and validating any AI-generated code or content before submission.
+
 ---
 
 ## 💡 How Can I Contribute?
@@ -38,6 +40,7 @@ If you find a bug in any KeelStack template:
     *   Clear steps to reproduce the issue.
     *   What you expected to happen vs. what actually happened.
     *   Relevant error logs or screenshots.
+  If possible, indicate severity (blocking, major, minor) and whether the issue affects production usage.
 
 ### ✨ Suggesting Features
 Have an idea for a new "AI-Native" feature?
@@ -64,8 +67,8 @@ Following these guidelines helps us review and merge your contributions faster.
 
 ### 💬 Commit Messages
 We use the [Conventional Commits](https://www.conventionalcommits.org) standard. This helps automate changelog generation.
-*   `feat:` – A new feature (e.g., `feat: add Lemon Squeezy webhook handler`).
-*   `fix:` – A bug fix (e.g., `fix: handle Stripe signature timeout`).
+*   `feat:` – A new feature (e.g., `feat: add payment provider webhook handler`).
+*   `fix:` – A bug fix (e.g., `fix: handle webhook signature timeout`).
 *   `docs:` – Documentation only changes.
 *   `refactor:` – A code change that neither fixes a bug nor adds a feature.
 *   `test:` – Adding missing tests or correcting existing tests.
@@ -88,7 +91,10 @@ We use the [Conventional Commits](https://www.conventionalcommits.org) standard.
 
 ---
 
-## 🛡️ For Pro Template Contributors
+## 🛡️ Pro Template Feedback & Improvements
+
+Pro templates are commercial products and are not open-source. While we welcome fixes and improvements from customers, submissions are reviewed internally and merged at our discretion. Rewards are granted based on impact and quality and are not guaranteed.
+
 Our core SaaS starter kits are **private, paid products**. We deeply appreciate contributions that make these kits better for everyone. Here's how you can help:
 
 1.  **Feature Requests & Ideas:** Please use the [Ideas category in Discussions](https://github.com/keelstack-me/community/discussions/categories/ideas). This is the best place to propose and refine new features.
@@ -97,6 +103,11 @@ Our core SaaS starter kits are **private, paid products**. We deeply appreciate 
 4.  **Rewards:**
     *   High-quality, accepted bug fixes for our core products are rewarded with **free lifetime updates** for the affected kit.
     *   Significant feature contributions may be rewarded with **special discounts** or even a **free copy of another KeelStack kit** of your choice.
+
+---
+
+## 📄 Licensing
+By contributing to public repositories, you agree that your contributions will be licensed under the same license as the repository. Contributions to paid templates do not grant ownership or licensing rights unless explicitly agreed in writing.
 
 ---
 

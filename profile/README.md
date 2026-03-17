@@ -36,7 +36,7 @@ A production-grade backend foundation covering:
 - Observability — Sentry and OpenTelemetry hooks
 - Health endpoints — /healthz, /readyz, /health
 
-**133 unit tests · 36 e2e checks · 93% statement coverage · 0 vulnerabilities**
+**200 unit tests · 36 e2e checks · 94% statement coverage · 0 vulnerabilities**
 
 Backend-only by design. Works with React, Next.js, Vue, Svelte, React Native, or any frontend you already have.
 

@@ -25,28 +25,45 @@ KeelStack focuses on providing well-structured starting points. Final quality, s
 
 ## 🚀 Available Now
 
-### KeelStack Backend Kit — v1.0
+### KeelStack Engine — v1.1
 *Node.js · Express · TypeScript · PostgreSQL · Stripe · Resend*
 
 A production-grade backend foundation covering:
 - Authentication — register, login, refresh tokens, MFA, password reset, email verification
 - Billing — Stripe subscriptions, webhook handling, idempotency
+- Background Jobs — async task queue, retryable job runner, persistent job store
+- AI / LLM — provider-agnostic LLM client with per-user token budgets and boundary enforcement
 - Database — PostgreSQL via Drizzle ORM with in-memory fallback
 - Email — Resend integration
 - Observability — Sentry and OpenTelemetry hooks
 - Health endpoints — /healthz, /readyz, /health
 
-**200 unit tests · 36 e2e checks · 94% statement coverage · 0 vulnerabilities**
+**563 unit tests · 37 e2e checks · 91.7% statement coverage · 0 vulnerabilities**
 
 Backend-only by design. Works with React, Next.js, Vue, Svelte, React Native, or any frontend you already have.
 
-[Get KeelStack Backend Kit →](https://keelstack.me)
+[Get KeelStack Engine →](https://keelstack.me)
+
+---
+
+### KeelStack UI Starter — v1.0 *(open source)*
+*Next.js 14 · TypeScript · TanStack Query · Tailwind CSS*
+
+A reference frontend that connects directly to the KeelStack Engine and demonstrates its production patterns in a working UI:
+- Auth flows — login, register, MFA step, password reset, email verification (full token round-trip)
+- Billing dashboard — subscription management with live idempotency key visibility and webhook deduplication demo
+- Jobs dashboard — async task submission with 202 + poll lifecycle, real-time status tracking
+- AI usage — token budget meter, LLMClient boundary explainer, per-call log
+
+Not a generic dashboard. Every screen surfaces a specific engine pattern — idempotency keys, correlation IDs, 202+pollUrl flows, webhook dedup — so you can see exactly what the engine is doing and why.
+
+[View on GitHub →](https://github.com/KeelStack-me/keelstack-ui-starter)
 
 ---
 
 ## 🗺️ Roadmap
 
-These kits are in research or early design and will progress after the backend kit is stable:
+These kits are in research or early design and will progress as the engine stabilises:
 
 | Kit | Stack | Status |
 |-----|-------|--------|

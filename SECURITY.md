@@ -1,24 +1,51 @@
 # 🛡️ KeelStack Security Policy
 
-At **KeelStack**, we are committed to building secure **AI‑Native SaaS Starter Kits** for solo founders and indie hackers. We welcome the efforts of security researchers to help us maintain the highest level of integrity for our customers and our code.
+At **KeelStack**, we are committed to building secure **AI‑Native SaaS Starter Kits** for solo founders and indie hackers. This policy applies to **all repositories** within the KeelStack organization, including our public community repos and private template repos.
+
+We welcome the efforts of security researchers to help us maintain the highest level of integrity for our customers and our code. This policy is designed to be clear, fair, and actionable.
 
 ---
 
-## 🚀 Reporting a Vulnerability
+## 🔒 Supported Versions
 
-If you discover a security vulnerability in any KeelStack repository (including our public community repo or private template repos), **please do not open a public issue**. Public disclosure before a fix is available puts our users at risk.
+We actively maintain and provide security updates only for the **latest major version** of each KeelStack product.
 
-Instead, report all security concerns directly to:
+| Version | Supported |
+| :--- | :--- |
+| Latest major version | ✅ |
+| Older major versions | ❌ |
 
-- **Email:** [security@keelstack.me](mailto:security@keelstack.me)
-- **Encryption:** Reports are handled privately and access is restricted to core maintainers.
+Users are strongly encouraged to keep their installations up to date. Security fixes are **not backported** to unsupported versions.
 
-### ⏱️ What to Expect
+---
 
-- **Acknowledgement:** You will receive an acknowledgement of your report within **24 hours** (often sooner).  
-- **Investigation:** Our team will investigate and validate the issue.  
-- **Updates:** We will keep you informed as we work toward a resolution.  
-- **Resolution:** Once a fix is ready, we will notify affected users (if any) and release an update.
+## 📢 Reporting a Vulnerability
+
+If you discover a security vulnerability in any KeelStack repository, **please do not open a public issue**. Public disclosure before a fix is available puts our users at risk.
+
+Instead, report all security concerns through one of the following private channels:
+
+- **GitHub Private Vulnerability Reporting** (recommended): Go to the **Security** tab of the relevant repository and click **Report a vulnerability**.
+- **Email**: [security@keelstack.me](mailto:security@keelstack.me) – PGP key available upon request.
+
+Reports are handled privately and access is restricted to core maintainers.
+
+---
+
+## ⏱️ What to Expect
+
+We follow a **Coordinated Vulnerability Disclosure (CVD)** process. You can expect:
+
+| Step | Timeline |
+| :--- | :--- |
+| **Acknowledgement** | Within 24 hours (often sooner) |
+| **Triage & Confirmation** | Within 5 business days |
+| **Status updates** | Weekly throughout the investigation |
+| **Fix & release** | Within 90 days (typical) |
+
+If we cannot resolve the vulnerability within 90 days, we will work with you to establish a revised disclosure timeline or acknowledge your right to public disclosure.
+
+We will keep you informed of our progress and may request additional information. The Red Hat Product Security team follows a similar process, acknowledging reports within one business day.
 
 ---
 
@@ -30,28 +57,41 @@ We follow **Coordinated Vulnerability Disclosure**. We ask that you allow us a r
 
 Vulnerabilities in the following areas are considered in scope:
 
-- Authentication bypass (e.g., Auth.js, JWT logic)  
-- Data leakage (API endpoints, middleware, environment variables)  
-- Injection flaws (Prisma, SQL, NoSQL)  
-- Insecure configuration (deployment scripts, Cloudflare settings)  
-- Broken access control (RBAC, user permissions)  
-- Code execution vulnerabilities
+- Authentication bypass (e.g., Auth.js, JWT logic, session management)
+- Data leakage (API endpoints, middleware, environment variables)
+- Injection flaws (SQL, NoSQL, command injection)
+- Insecure configuration (deployment scripts, Docker settings, Cloudflare rules)
+- Broken access control (RBAC, user permissions, tenant isolation)
+- Remote code execution (RCE)
 
-Note: Security reports for **custom implementations** built using KeelStack are out of scope; we only cover the **Core Template logic (authentication, authorization, billing, and infrastructure scaffolding)**
+**Note:** Security reports for **custom implementations** built using KeelStack are out of scope; we only cover the **Core Template logic** (authentication, authorization, billing, webhook handling, and infrastructure scaffolding).
 
 ### ❌ Out of Scope
 
-- Issues in third‑party dependencies (please report to the respective maintainers)  
-- Theoretical attacks without proof of concept  
-- Social engineering, phishing, or physical attacks  
-- Denial‑of‑service attacks  
-- Automated tooling reports without manual verification  
+- Issues in third‑party dependencies (please report to the respective maintainers)
+- Theoretical attacks without a proof‑of‑concept
+- Social engineering, phishing, or physical attacks
+- Denial‑of‑service (DoS) attacks
+- Automated tooling reports without manual verification
+- Reports from automated scanners that lack demonstrated impact
 
 ---
 
-## 🛡️ Safe Harbor
+## 🔐 Safe Harbor
 
-We will not pursue legal action against security researchers who discover and report vulnerabilities responsibly and in good faith, in accordance with this policy.
+We will not pursue legal action against security researchers who discover and report vulnerabilities **responsibly and in good faith**, in accordance with this policy. We consider the following activities as authorised:
+
+- Conducting research on KeelStack products without causing harm
+- Testing in accordance with this policy
+- Making a good‑faith effort to avoid privacy violations, destruction of data, or interruption of service
+
+We ask that you:
+
+- **Do not** access, modify, delete, or exfiltrate data beyond what is strictly necessary to demonstrate the vulnerability
+- **Do not** perform denial‑of‑service attacks or degrade system availability
+- **Do not** introduce malware, backdoors, or malicious code
+- **Do not** perform social engineering attacks
+- **Do not** disclose the vulnerability publicly before we have had a reasonable opportunity to investigate and remediate it
 
 ---
 
@@ -59,13 +99,30 @@ We will not pursue legal action against security researchers who discover and re
 
 We believe in giving credit where it’s due. If you are the **first** to report a unique, valid security issue, we will:
 
-- Give you **public credit** in our release notes (unless you prefer to remain anonymous).  
-- Grant you a **complimentary Premium License** (scope and duration determined at our discretion) to our latest SaaS Starter Kits.
+- Give you **public credit** in our release notes (unless you prefer to remain anonymous)
+- Grant you a **complimentary Premium License** (scope and duration determined at our discretion) to our latest SaaS Starter Kits
 
-We may also include your name in our Release Notes (with your permission).
+We do not currently operate a bug bounty program, but we deeply appreciate every contribution that makes KeelStack more secure.
+
+---
+
+## 🧭 Threat Model & Security Hardening
+
+KeelStack is designed with security in mind. We follow industry best practices:
+
+- **Input validation** using Zod schemas
+- **Rate limiting** on authentication endpoints (30 requests / 10 minutes)
+- **Helmet.js** for secure HTTP headers (strict CSP, HSTS, no sniff)
+- **Argon2id** for password hashing (OWASP 2023 parameters)
+- **Constant‑time comparison** for sensitive operations
+- **Idempotency middleware** to prevent duplicate webhook processing
+- **Durable job queues** with retry‑safe execution
+- **Environment‑based configuration** with `.env.example` – never commit secrets
+
+For more details, refer to our [Security Hardening Guide](./docs/SECURITY.md) and the **Security** section in our documentation.
 
 ---
 
 Thank you for helping us keep KeelStack and the indie hacking community safe. Together, we build better.
 
-**– The KeelStack Team** ⚓
+– **The KeelStack Team ⚓**

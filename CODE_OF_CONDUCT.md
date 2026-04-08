@@ -1,5 +1,6 @@
 # 📜 KeelStack Community Code of Conduct
-This Code of Conduct exists to protect the community, not to police good-faith participation.
+
+**Our shared commitment:** KeelStack is built by and for indie hackers, founders, and developers who want to ship great software without friction. This Code of Conduct exists to protect our community, not to police good‑faith participation. It reflects our shared values of respect, kindness, and technical excellence.
 
 ---
 
@@ -28,7 +29,7 @@ We are committed to building a community where indie hackers, founders, and deve
 - **Trolling, insulting or derogatory comments**, and personal or political attacks.
 - **Public or private harassment** of any kind.
 - **Publishing others' private information** (e.g., email, address) without explicit permission – also known as *doxxing*.
-- **Encouraging or facilitating violations** of KeelStack’s licensing or terms.(violates our terms and harms the community).
+- **Encouraging or facilitating violations** of KeelStack’s licensing or terms (violates our terms and harms the community).
 - Any other conduct that could reasonably be considered **inappropriate in a professional setting**.
 
 ---
@@ -52,26 +53,33 @@ This Code of Conduct applies **within all KeelStack community spaces**, includin
 - Our **X/Twitter community interactions**
 - Any **official KeelStack events** (virtual or in‑person)
 
-It also applies when an individual is **officially representing the community** in public spaces (e.g., using an official email address, posting as a representative on social media, or speaking at an event).
-All interactions must remain professional and appropriate for a mixed-age public community.
+It also applies when an individual is **officially representing the community** in public spaces (e.g., using an official email address, posting as a representative on social media, or speaking at an event). All interactions must remain professional and appropriate for a mixed-age public community.
 
 ---
 
 ## 📢 Reporting a Concern
 
-If you experience or witness unacceptable behavior, or have any other concerns, please report it immediately. All reports will be handled with discretion and confidentiality.
+If you experience or witness unacceptable behavior, or have any other concerns, please report it immediately. **All reports will be handled with discretion and confidentiality.**
 
 **You can report directly to the KeelStack Founder:**
 
-- **Email:** [founder@keelstack.me](mailto:founder@keelstack.me)
-- **Alternative:** [hello@keelstack.me](mailto:hello@keelstack.me)
+- **Primary contact:** [founder@keelstack.me](mailto:founder@keelstack.me)
+- **Secondary contact (if your report concerns the founder):** [hello@keelstack.me](mailto:hello@keelstack.me)
+
+### Investigation Process
+
+1. **Acknowledgment** – We will acknowledge receipt of your report within **48 hours**.
+2. **Review** – We will conduct an impartial, confidential review of the facts.
+3. **Action** – We will take appropriate action within **14 days** and notify you of the outcome, unless extraordinary circumstances delay the process.
+4. **Appeal** – If you disagree with a decision, you may appeal by replying to the same email thread.
 
 We are committed to:
 
 - **Listening carefully** to your report.
-- **Investigating promptly** and fairly.
 - **Protecting your privacy** – your identity will not be shared without your consent.
-- **Taking appropriate action** to address the situation.
+- **Taking proportional action** to address the situation.
+
+For more detail on our enforcement process, see [ENFORCEMENT.md](./ENFORCEMENT.md) (if present).
 
 ---
 
@@ -103,9 +111,9 @@ This Code of Conduct is governed and interpreted in accordance with applicable l
 
 ## 🙏 Acknowledgments
 
-This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org), version 2.1, available at [https://www.contributor-covenant.org/version/2/1/code_of_conduct.html](https://www.contributor-covenant.org/version/2/1/code_of_conduct.html).
+This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org), version 2.1, available at [https://www.contributor-covenant.org/version/2/1/code_of_conduct.html](https://www.contributor-covenant.org/version/2/1/code_of_conduct.html). We thank the Contributor Covenant community for providing this foundation.
 
-We thank the Contributor Covenant community for providing this foundation.
+We also incorporate best practices from [opensource.guide](https://opensource.guide/code-of-conduct/) and the ICSE 2026 research paper on community health.
 
 ---
 

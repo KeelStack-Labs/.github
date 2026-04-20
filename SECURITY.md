@@ -1,128 +1,142 @@
-# 🛡️ KeelStack Security Policy
+# KeelStack Security Policy
 
-At **KeelStack**, we are committed to building secure **AI‑Native SaaS Starter Kits** for solo founders and indie hackers. This policy applies to **all repositories** within the KeelStack organization, including our public community repos and private template repos.
+At KeelStack, we take security seriously across all repositories in the organization, including public repositories, private repositories, internal repositories, and template repositories.
 
-We welcome the efforts of security researchers to help us maintain the highest level of integrity for our customers and our code. This policy is designed to be clear, fair, and actionable.
+This policy applies to every repository that is maintained by the KeelStack organization unless a more specific repository-level security policy is provided.
+
+We welcome security researchers and community members who help us improve the security of KeelStack software. This policy is designed to make responsible reporting clear, private, and actionable.
 
 ---
 
-## 🔒 Supported Versions
+## Supported Versions
 
-We actively maintain and provide security updates only for the **latest major version** of each KeelStack product.
+We actively maintain and provide security updates only for the latest major version of each KeelStack product or repository line.
 
 | Version | Supported |
 | :--- | :--- |
 | Latest major version | ✅ |
 | Older major versions | ❌ |
 
-Users are strongly encouraged to keep their installations up to date. Security fixes are **not backported** to unsupported versions.
+Security fixes are not backported to unsupported versions unless explicitly stated in a repository-specific policy or release announcement.
 
 ---
 
-## 📢 Reporting a Vulnerability
+## Reporting a Vulnerability
 
-If you discover a security vulnerability in any KeelStack repository, **please do not open a public issue**. Public disclosure before a fix is available puts our users at risk.
+If you discover a security vulnerability in any KeelStack repository, please do not open a public issue.
 
-Instead, report all security concerns through one of the following private channels:
+Instead, report it privately through one of the following channels:
 
-- **GitHub Private Vulnerability Reporting** (recommended): Go to the **Security** tab of the relevant repository and click **Report a vulnerability**.
-- **Email**: [security@keelstack.me](mailto:security@keelstack.me).
+- **GitHub Private Vulnerability Reporting** (recommended): Use the **Security** tab of the affected repository and select **Report a vulnerability**.
+- **Email**: [security@keelstack.me](mailto:security@keelstack.me)
 
-Reports are handled privately and access is restricted to core maintainers.
+If the repository does not have private vulnerability reporting enabled, use the email address above.
+
+Please include, if possible:
+- A clear description of the issue.
+- The affected repository and version.
+- Steps to reproduce.
+- The security impact.
+- Any proof of concept or relevant logs, if safe to share.
 
 ---
 
-## ⏱️ What to Expect
+## Coordinated Disclosure
 
-We follow a **Coordinated Vulnerability Disclosure (CVD)** process. You can expect:
+We follow a Coordinated Vulnerability Disclosure process.
 
 | Step | Timeline |
 | :--- | :--- |
-| **Acknowledgement** | Within 24 hours (often sooner) |
-| **Triage & Confirmation** | Within 5 business days |
-| **Status updates** | Weekly throughout the investigation |
-| **Fix & release** | Within 90 days (typical) |
+| Acknowledgement | Within 24 hours |
+| Triage and confirmation | Within 5 business days |
+| Status updates | Weekly during investigation |
+| Fix and release | Typically within 90 days |
 
-If we cannot resolve the vulnerability within 90 days, we will work with you to establish a revised disclosure timeline or acknowledge your right to public disclosure.
-
-We will keep you informed of our progress and may request additional information. The Red Hat Product Security team follows a similar process, acknowledging reports within one business day.
+If we cannot resolve the issue within 90 days, we will work with the reporter to agree on a revised disclosure timeline. If necessary, we will also discuss whether public disclosure should proceed.
 
 ---
 
-## 🛠️ Disclosure Policy
+## Safe Harbor
 
-We follow **Coordinated Vulnerability Disclosure**. We ask that you allow us a reasonable amount of time to resolve the issue before making any public disclosure. We will work with you to agree on a disclosure timeline.
+We will not pursue legal action against researchers who report vulnerabilities responsibly and in good faith, in accordance with this policy.
 
-### ✅ In Scope
+Authorized research includes:
+- Testing KeelStack repositories for security issues.
+- Reviewing repository code and configuration.
+- Validating a vulnerability with the minimum proof needed to demonstrate impact.
+- Coordinating privately with maintainers before public disclosure.
 
-Vulnerabilities in the following areas are considered in scope:
-
-- Authentication bypass (e.g., Auth.js, JWT logic, session management)
-- Data leakage (API endpoints, middleware, environment variables)
-- Injection flaws (SQL, NoSQL, command injection)
-- Insecure configuration (deployment scripts, Docker settings, Cloudflare rules)
-- Broken access control (RBAC, user permissions, tenant isolation)
-- Remote code execution (RCE)
-
-**Note:** Security reports for **custom implementations** built using KeelStack are out of scope; we only cover the **Core Template logic** (authentication, authorization, billing, webhook handling, and infrastructure scaffolding).
-
-### ❌ Out of Scope
-
-- Issues in third‑party dependencies (please report to the respective maintainers)
-- Theoretical attacks without a proof‑of‑concept
-- Social engineering, phishing, or physical attacks
-- Denial‑of‑service (DoS) attacks
-- Automated tooling reports without manual verification
-- Reports from automated scanners that lack demonstrated impact
+Please do not:
+- Access, modify, delete, or exfiltrate data beyond what is necessary to demonstrate the issue.
+- Perform denial-of-service attacks or degrade service availability.
+- Introduce malware, backdoors, or malicious code.
+- Use social engineering or phishing.
+- Publicly disclose the vulnerability before we have had a reasonable opportunity to investigate and remediate it.
 
 ---
 
-## 🔐 Safe Harbor
+## Scope
 
-We will not pursue legal action against security researchers who discover and report vulnerabilities **responsibly and in good faith**, in accordance with this policy. We consider the following activities as authorised:
+### In Scope
 
-- Conducting research on KeelStack products without causing harm
-- Testing in accordance with this policy
-- Making a good‑faith effort to avoid privacy violations, destruction of data, or interruption of service
+Security issues in the following areas are in scope when they affect KeelStack-maintained code, templates, or infrastructure:
 
-We ask that you:
+- Authentication and session management.
+- Authorization and access control.
+- Tenant isolation and data leakage.
+- Injection flaws.
+- Insecure configuration.
+- Webhook verification and signing.
+- Billing and subscription logic.
+- Secrets handling and environment configuration.
+- Infrastructure scaffolding and deployment logic.
+- Template logic that is shipped as part of a KeelStack repository.
 
-- **Do not** access, modify, delete, or exfiltrate data beyond what is strictly necessary to demonstrate the vulnerability
-- **Do not** perform denial‑of‑service attacks or degrade system availability
-- **Do not** introduce malware, backdoors, or malicious code
-- **Do not** perform social engineering attacks
-- **Do not** disclose the vulnerability publicly before we have had a reasonable opportunity to investigate and remediate it
+### Out of Scope
 
----
-
-## 🤝 Acknowledgments
-
-We believe in giving credit where it’s due. If you are the **first** to report a unique, valid security issue, we will:
-
-- Give you **public credit** in our release notes (unless you prefer to remain anonymous)
-- Grant you a **complimentary Premium License** (scope and duration determined at our discretion) to our latest SaaS Starter Kits
-
-We do not currently operate a bug bounty program, but we deeply appreciate every contribution that makes KeelStack more secure.
-
----
-
-## 🧭 Threat Model & Security Hardening
-
-KeelStack is designed with security in mind. We follow industry best practices:
-
-- **Input validation** using Zod schemas
-- **Rate limiting** on authentication endpoints (30 requests / 10 minutes)
-- **Helmet.js** for secure HTTP headers (strict CSP, HSTS, no sniff)
-- **Argon2id** for password hashing (OWASP 2023 parameters)
-- **Constant‑time comparison** for sensitive operations
-- **Idempotency middleware** to prevent duplicate webhook processing
-- **Durable job queues** with retry‑safe execution
-- **Environment‑based configuration** with `.env.example` – never commit secrets
-
-For more details, refer to our [Security Hardening Guide](./docs/SECURITY.md) and the **Security** section in our documentation.
+The following are out of scope:
+- Vulnerabilities in third-party dependencies, unless caused by KeelStack integration code.
+- Theoretical attacks without a proof of concept.
+- Social engineering, phishing, or physical attacks.
+- Denial-of-service attacks that do not demonstrate a security impact.
+- Automated scanner reports without manual verification and impact.
+- Issues in custom implementations built by users on top of KeelStack templates unless the issue is caused by KeelStack-provided code.
 
 ---
 
-Thank you for helping us keep KeelStack and the indie hacking community safe. Together, we build better.
+## What to Expect
 
-– **The KeelStack Team ⚓**
+We aim to handle reports professionally and transparently.
+
+- We may request additional information or clarification.
+- We may ask you not to disclose the issue publicly until a fix is available.
+- We may coordinate on a temporary mitigation if a full fix will take time.
+- We may publish a security advisory after the fix is released.
+
+If you prefer anonymity, please let us know and we will respect that where possible.
+
+---
+
+## Acknowledgments
+
+If you are the first to report a unique, valid security issue, we may:
+- Credit you in release notes or advisories, unless you prefer to remain anonymous.
+- Offer a complimentary Premium License or similar courtesy reward at our discretion.
+
+We do not currently operate a formal bug bounty program.
+
+---
+
+## Security Hardening
+
+KeelStack repositories should use security best practices appropriate to the project, including:
+- Input validation.
+- Secret scanning and push protection.
+- Dependency review and updates.
+- Secure defaults.
+- Environment-based configuration.
+- Signed webhooks where applicable.
+- Rate limiting where applicable.
+- Audit logging where applicable.
+
+For repository-specific guidance, see that repository’s documentation.

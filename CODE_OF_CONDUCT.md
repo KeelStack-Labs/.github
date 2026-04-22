@@ -49,7 +49,6 @@ We have the right and responsibility to **remove, edit, or reject** comments, co
 This Code of Conduct applies **within all KeelStack community spaces**, including:
 
 - Our **GitHub repositories** (issues, discussions, pull requests)
-- Our **LinkedIn Group**
 - Our **X/Twitter community interactions**
 - Any **official KeelStack events** (virtual or in‑person)
 
